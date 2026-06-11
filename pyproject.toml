@@ -8,10 +8,6 @@ dependencies = [
     "mcp[cli]",
 ]
 
-[tool.uv.sources]
-mcp = { workspace = true }
-
-
 [project.scripts]
 mcp-server = "mcpserver.__main__:main"
 
